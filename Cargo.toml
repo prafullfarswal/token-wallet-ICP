@@ -1,0 +1,15 @@
+[package]
+name = "token_wallet"  # This is the root package name
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ic-cdk = "0.16.0"
+ic-cdk-macros = "0.16.0"
+candid = "0.10.13"
+
+[lib]
+name = "token_wallet_backend"
+path = "src/token_wallet_backend/src/lib.rs"
+
+
